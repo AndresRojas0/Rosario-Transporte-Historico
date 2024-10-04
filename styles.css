@@ -1,0 +1,45 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+  }
+  
+  #map {
+    height: 600px;
+    width: 100%;
+  }
+  
+  #legend {
+    display: grid;
+    font-family: Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #legend h3 {
+    margin-top: 0;
+  }
+  
+  #legend img {
+    vertical-align: middle;
+  }
+  
+  #zones {
+    grid-row-end: auto;
+    padding: 5px;
+  }
+  
+  #layer-toggles {
+    grid-column-start: auto;
+    /*position: absolute;
+    top: 10px;
+    left: 10px;*/
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); */
+  }
+  
+  #layer-toggles div {
+    margin-bottom: 5px;
+  }
+  
